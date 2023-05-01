@@ -158,3 +158,4 @@ if __name__ == '__main__':
         "num_categories": 4
     })
     model = build_network(**params)
+    
