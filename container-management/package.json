@@ -1,0 +1,32 @@
+{
+  "name": "container-management",
+  "private": true,
+  "version": "0.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "start": "nodemon --exec electron . --watch ./ --ext .js,.html,.css,.vue"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "element-plus": "^2.6.2",
+    "g": "^2.0.1",
+    "nodemon": "^3.1.0",
+    "pinia": "^2.1.7",
+    "pinia-persistedstate-plugin": "^0.1.0",
+    "stylus": "^0.63.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "electron": "^29.1.5",
+    "electron-win-state": "^1.1.22",
+    "sass": "^1.72.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
